@@ -1,3 +1,2 @@
 ssh-keygen -t ed25519 -C "radhekrishna2170@gmail.com" -f ~/.ssh/id_KSfork_specific
-
-pass phrase : rk2170
+pass phrase : saved in proton pass app
