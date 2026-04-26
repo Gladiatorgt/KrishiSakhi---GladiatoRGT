@@ -1,2 +1,14 @@
 ssh-keygen -t ed25519 -C "radhekrishna2170@gmail.com" -f ~/.ssh/id_KSfork_specific
 pass phrase : saved in proton pass app
+
+
+
+###############
+
+ratnesh@RGTpc:~/Videos/Gladiatorgt\KrishiSakhi---GladiatoRGT/KrishiSakhi---GladiatoRGT$ git config core.sshCommand "ssh -i ~/.ssh/id_KSfork_specific -o IdentitiesOnly=yes"
+ratnesh@RGTpc:~/Videos/Gladiatorgt\KrishiSakhi---GladiatoRGT/KrishiSakhi---GladiatoRGT$ git push
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
